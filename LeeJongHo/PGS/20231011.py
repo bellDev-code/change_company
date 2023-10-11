@@ -27,3 +27,8 @@ def solution(numbers):
         numbers = numbers.replace(el, str(idx))
     
     return int(numbers)
+
+# 24줄 : "zero"부터 시작하는 문자열 배열을 만들어준다.
+# 26줄 : 파이썬 enumerate()함수는 index와 element를 주는 튜플(0, zero) 형태의 값을 준다.
+# 27줄 : replace()로 element를 index로 대신한다.
+# 29줄 : 결과값은 문자열로 반환되기 때문에 정수로 바꿔준다.
